@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        .container{
+            border:solid 2px black;
+            width: 25%;
+            height: 550px;
+            margin: auto;
+            margin-top: 300px;
+            text-align: center;
+            background-color: burlywood;
+        
+        }
+        #cal{
+            width: 400px;
+            height: 60px;
+            margin-top: 20px;
+            background-color: ghostwhite;
+        }
+        .valueBtn{
+            width: 20px;  
+            background-color: green;  
+            color: white;  
+            border: 3px solid gray;  
+            border-radius: 5px;  
+            padding: 26px;  
+            margin: 5px;  
+            font-size: 15px;  
+        }
+        #clear{
+            width: 400px;
+            height: 50px;
+            background-color: red;
+        }
+        input{
+            background-color: green;
+            height: 40px;
+            width: 90px;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <input id="cal" type="text"/>
+        <br>
+        <input type = "button" value = "1" class="valueBtn1"/>
+        <input type = "button" value = "2" class="valueBtn2"/>
+        <input type = "button" value = "3" class="valueBtn3"/>
+        <input type =  "button" value="+" class="addBtn">
+        <br>
+        <input type = "button" value = "4" class="valueBtn4"/>
+        <input type = "button" value = "5" class="valueBtn5"/>
+        <input type = "button" value = "6"class="valueBtn6"/>
+        <input type = "button" value="-" class="subtract"/>
+        <br>
+        <input type = "button" value = "7" class="valueBtn7"/>
+        <input type = "button" value = "8" class="valueBtn8"/>
+        <input type = "button" value = "9" class="valueBtn9"/>
+        <input type=  "button" value="*" class="mulBtn">
+        <br>
+        <input type = "button" value = "/" class="division"/>
+        <input type = "button" value = "0" class="zero"/>
+        <input type = "button" value= "." class="dot">
+        <input type = "button" value = "=" class="valueBtn16"/>
+        <br>
+        <input type = "button" value = "Clear All" id="clear"/>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
